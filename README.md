@@ -2,9 +2,7 @@
 
 ### Evaluating Health Expenditure Efficiency Across Kenyan Counties
 
-
 ## 1. Project Overview
-
 
 This project analyzes how efficiently Kenyan counties utilize public health funds to produce measurable healthcare outcomes.
 
@@ -23,9 +21,77 @@ Using a combination of **data engineering (PySpark + Medallion Architecture)** a
 *   Identify **high-performing and underperforming counties**
 *   Provide **data-driven policy recommendations**
 *   Build a **scalable analytics pipeline** using modern data architecture
-    
 
-## 3. Project Architecture (Medallion Framework)
+## 3. Problem Statement
+
+> Which counties in Kenya are most efficient in converting health expenditure into improved healthcare outcomes?
+    
+This analysis reveals a **strong disconnect between health spending levels and efficiency outcomes across counties** in Kenya.
+
+### 1. High Spending Does Not Guarantee High Efficiency
+Several counties with the **highest per capita health spending** do not rank highly in efficiency:
+
+- **Nairobi City** has the highest spending per capita (~1575) and the largest total health budget, yet ranks **1st in efficiency rank but only mid-level outcome score (0.60)**, indicating diminishing returns at very high spending levels.
+- Counties like **Mombasa, Kiambu, and Uasin Gishu** also exhibit relatively high spending but only moderate efficiency scores.
+
+This suggests that beyond a certain threshold, **additional spending yields weaker marginal improvements in health outcomes**.
+
+### 2. Low-Resource Counties Show Mixed Performance
+Some lower-spending counties perform better than expected:
+
+- **Laikipia (rank 18)** and **Nyeri (rank 23)** achieve relatively strong outcome scores despite moderate spending levels.
+- These counties demonstrate signs of **higher operational efficiency and better resource utilization**.
+
+This indicates that **management efficiency and service delivery quality matter as much as budget size**.
+
+### 3. Persistently Low Efficiency Counties
+Several counties consistently underperform in both spending efficiency and outcomes:
+
+- **Turkana, Wajir, Mandera, West Pokot, and Garissa**
+  - Moderate-to-low efficiency scores
+  - Low outcome scores
+  - High population pressure and geographic constraints
+
+These regions likely face **structural challenges (accessibility, infrastructure, workforce shortages)** rather than purely financial constraints.
+
+### 4. Efficiency Clusters Are Clearly Visible
+The clustering column (`prediction`) separates counties into clear groups:
+
+- **Cluster 1 (High efficiency / better outcomes)**:
+  - Includes Nairobi, Kiambu, Uasin Gishu, Meru
+  - Generally better outcomes and higher productivity per shilling spent
+
+- **Cluster 0 (Low efficiency despite high spending)**:
+  - Includes Kilifi, Kakamega, Nakuru, Kisumu
+  - Suggests inefficiencies in resource allocation or service delivery
+
+- **Cluster 3 (Low spending + moderate outcomes)**:
+  - Includes Samburu, Marsabit, Embu, Baringo
+  - Indicates constrained systems operating near capacity
+
+### 5. Key Pattern: Diminishing Returns of Spending
+A clear trend emerges:
+
+> Counties with extremely high health spending per capita do not always achieve proportional improvements in health outcomes.
+
+This supports the idea of **diminishing marginal returns in public health expenditure**.
+
+### Policy Implications
+
+- **Reallocate resources toward efficiency gains, not just higher budgets**
+- Strengthen **health system management in low-efficiency high-spend counties**
+- Invest in **infrastructure and access in arid and semi-arid counties**
+- Use efficient counties (e.g., Kiambu, Meru, Uasin Gishu) as **benchmark models**
+- Shift focus from “how much is spent” to **“how effectively it is used”**
+
+### Core Takeaway
+
+> “Kenya’s health system efficiency is not determined by spending levels alone, but by how effectively counties convert resources into improved health outcomes.”
+
+This analysis highlights **significant disparities in efficiency across counties**, providing a strong foundation for evidence-based policy decisions and resource reallocation.
+
+
+## 4. Project Architecture (Medallion Framework)
 
 The project follows a **Medallion Architecture** to ensure scalability, reproducibility, and clarity.
 
@@ -82,7 +148,7 @@ This table contains:
 
 This is the **core analytical layer** where efficiency is calculated.
 
-## 4. Efficiency Model
+## 5. Efficiency Model
 
 ### Model Approach: Interpretable Composite Index
 
@@ -130,7 +196,7 @@ This captures:
 
 Scores are rescaled to a **0–100 range** for interpretability.
 
-## 5. Key Outputs
+## 6. Key Outputs
 
 The final dataset:
 
@@ -148,7 +214,7 @@ The final dataset:
 | prediction | Cluster group |
 
 
-## 6. Analytical Outputs
+## 7. Analytical Outputs
 
 ### 1. Efficiency Rankings
 
@@ -182,7 +248,7 @@ Counties are grouped into 4 clusters:
 *   Efficiency varies significantly across counties
     
 
-## 7. Visualization (Planned / Implemented)
+## 8. Visualization (Planned / Implemented)
 
 The dataset supports interactive dashboards in **Power BI / Tableau**, including:
 
@@ -192,7 +258,7 @@ The dataset supports interactive dashboards in **Power BI / Tableau**, including
 *   Cluster segmentation visuals
     
 
-## 8. Policy Recommendations
+## 9. Policy Recommendations
 
 Based on the analysis:
 
@@ -216,7 +282,7 @@ Based on the analysis:
 *   Focus on **efficiency**, not just spending levels
     
 
-## 9. Limitations
+## 10. Limitations
 
 *   Lack of county-level data on:
 
@@ -228,14 +294,14 @@ Based on the analysis:
     
 
 
-## 10. Future Improvements
+## 11. Future Improvements
 
 *   Incorporate **facility and workforce data at county level**
 *   Add **time-series analysis (multi-year trends)**
 *   Build **predictive models (e.g., efficiency forecasting)**
     
 
-## 11. Tech Stack
+## 12. Tech Stack
 
 *   **PySpark (Databricks)** - Data processing
 *   **Delta Lake** - Data storage
@@ -244,7 +310,7 @@ Based on the analysis:
 *   **Python** - Feature engineering
     
 
-## 12. Conclusion
+## 13. Conclusion
 
 This project demonstrates that:
 
