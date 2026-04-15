@@ -1,0 +1,49 @@
+KEPH Level,Type of Health Facility,Ownership,Units,2017,2018,2019,2020,2021
+Grand Total,Total,Grand Total,Number,12464,13113,13790,14600,14137
+Level 2,Total,Sub-Total,Number,9751,10194,10671,11372,10943
+Level 2,Dispensary,MoH,Number,4350,4459,4652,4818,4902
+Level 2,Dispensary,Private,Number,126,138,147,153,118
+Level 2,Dispensary,FBO,Number,812,819,829,843,661
+Level 2,Dispensary,NGO,Number,21,23,27,36,35
+Level 2,Dispensary,Sub-Total,Number,5309,5439,5655,5850,5716
+Level 2,Medical Clinic,MoH,Number,11,13,14,20,31
+Level 2,Medical Clinic,Private,Number,3902,4193,4427,4890,4619
+Level 2,Medical Clinic,FBO,Number,11,16,17,23,49
+Level 2,Medical Clinic,NGO,Number,233,238,240,245,217
+Level 2,Medical Clinic,Sub-Total,Number,4157,4460,4698,5178,4916
+Level 2,Stand Alone,MoH,Number,34,34,34,35,39
+Level 2,Stand Alone,Private,Number,143,149,169,188,172
+Level 2,Stand Alone,FBO,Number,22,22,22,22,20
+Level 2,Stand Alone,NGO,Number,86,90,93,99,80
+Level 2,Stand Alone,Sub-Total,Number,285,295,318,344,311
+Level 3,Total,Sub-Total,Number,1992,2154,2313,2355,2273
+Level 3,Medical Centre,MoH,Number,0,0,0,0,0
+Level 3,Medical Centre,Private,Number,469,582,685,719,533
+Level 3,Medical Centre,FBO,Number,3,7,8,9,10
+Level 3,Medical Centre,NGO,Number,21,23,24,18,13
+Level 3,Medical Centre,Sub-Total,Number,493,612,717,746,556
+Level 3,Nursing Home,MoH,Number,0,0,0,0,0
+Level 3,Nursing Home,Private,Number,214,249,286,226,358
+Level 3,Nursing Home,FBO,Number,5,5,5,5,4
+Level 3,Nursing Home,NGO,Number,8,9,10,10,6
+Level 3,Nursing Home,Sub-Total,Number,227,263,301,241,368
+Level 3,Health Centre,MoH,Number,1023,1028,1039,1093,1109
+Level 3,Health Centre,Private,Number,11,12,13,14,15
+Level 3,Health Centre,FBO,Number,201,202,204,214,192
+Level 3,Health Centre,NGO,Number,37,37,39,47,33
+Level 3,Health Centre,Sub-Total,Number,1272,1279,1295,1368,1349
+Level 4,Total,Sub-Total,Number,697,741,782,849,895
+Level 4,Primary Care Hospitals,MoH,Number,353,354,356,357,365
+Level 4,Primary Care Hospitals,Private,Number,231,269,303,373,409
+Level 4,Primary Care Hospitals,FBO,Number,101,106,109,106,110
+Level 4,Primary Care Hospitals,NGO,Number,12,12,14,13,11
+Level 5,Total,Sub-Total,Number,18,18,18,18,20
+Level 5,Secondary Care Hospitals,MoH,Number,13,13,13,13,13
+Level 5,Secondary Care Hospitals,Private,Number,2,2,2,2,2
+Level 5,Secondary Care Hospitals,FBO,Number,3,3,3,3,5
+Level 5,Secondary Care Hospitals,NGO,Number,0,0,0,0,0
+Level 6,Total,Sub-Total,Number,6,6,6,6,6
+Level 6,Tertiary Referral Hospitals,MoH,Number,6,6,6,6,6
+Level 6,Tertiary Referral Hospitals,Private,Number,0,0,0,0,0
+Level 6,Tertiary Referral Hospitals,FBO,Number,0,0,0,0,0
+Level 6,Tertiary Referral Hospitals,NGO,Number,0,0,0,0,0

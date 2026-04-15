@@ -1,0 +1,433 @@
+Administrative Unit,Background Characteristic,Units,2019
+Kenya,Total Population,Number,47564296
+Kenya,Male,Number,23548056
+Kenya,Female,Number,24014716
+Kenya,Intersex,Number,1524
+Kenya,Total Households,Number,12143913
+Kenya,Conventional,Number,12043016
+Kenya,Group Quarters,Number,100897
+Kenya,Land Area,sq. km,580895
+Kenya,Density,persons per sq. km,82
+Mombasa,Total Population,Number,1208333
+Mombasa,Male,Number,610257
+Mombasa,Female,Number,598046
+Mombasa,Intersex,Number,30
+Mombasa,Total Households,Number,378422
+Mombasa,Conventional,Number,376295
+Mombasa,Group Quarters,Number,2127
+Mombasa,Land Area,sq. km,220
+Mombasa,Density,persons per sq. km,5495
+Kwale,Total Population,Number,866820
+Kwale,Male,Number,425121
+Kwale,Female,Number,441681
+Kwale,Intersex,Number,18
+Kwale,Total Households,Number,173176
+Kwale,Conventional,Number,172802
+Kwale,Group Quarters,Number,374
+Kwale,Land Area,sq. km,8254
+Kwale,Density,persons per sq. km,105
+Kilifi,Total Population,Number,1453787
+Kilifi,Male,Number,704089
+Kilifi,Female,Number,749673
+Kilifi,Intersex,Number,25
+Kilifi,Total Households,Number,298472
+Kilifi,Conventional,Number,297990
+Kilifi,Group Quarters,Number,482
+Kilifi,Land Area,sq. km,12553
+Kilifi,Density,persons per sq. km,116
+Tana River,Total Population,Number,315943
+Tana River,Male,Number,158550
+Tana River,Female,Number,157391
+Tana River,Intersex,Number,2
+Tana River,Total Households,Number,68242
+Tana River,Conventional,Number,66984
+Tana River,Group Quarters,Number,1258
+Tana River,Land Area,sq. km,37904
+Tana River,Density,persons per sq. km,8
+Lamu,Total Population,Number,143920
+Lamu,Male,Number,76103
+Lamu,Female,Number,67813
+Lamu,Intersex,Number,4
+Lamu,Total Households,Number,37963
+Lamu,Conventional,Number,34231
+Lamu,Group Quarters,Number,3732
+Lamu,Land Area,sq. km,6283
+Lamu,Density,persons per sq. km,23
+Taita Taveta,Total Population,Number,340671
+Taita Taveta,Male,Number,173337
+Taita Taveta,Female,Number,167327
+Taita Taveta,Intersex,Number,7
+Taita Taveta,Total Households,Number,96429
+Taita Taveta,Conventional,Number,94468
+Taita Taveta,Group Quarters,Number,1961
+Taita Taveta,Land Area,sq. km,17152
+Taita Taveta,Density,persons per sq. km,20
+Garissa,Total Population,Number,841353
+Garissa,Male,Number,458975
+Garissa,Female,Number,382344
+Garissa,Intersex,Number,34
+Garissa,Total Households,Number,141394
+Garissa,Conventional,Number,138940
+Garissa,Group Quarters,Number,2454
+Garissa,Land Area,sq. km,44753
+Garissa,Density,persons per sq. km,19
+Wajir,Total Population,Number,781263
+Wajir,Male,Number,415374
+Wajir,Female,Number,365840
+Wajir,Intersex,Number,49
+Wajir,Total Households,Number,127932
+Wajir,Conventional,Number,126878
+Wajir,Group Quarters,Number,1054
+Wajir,Land Area,sq. km,56774
+Wajir,Density,persons per sq. km,14
+Mandera,Total Population,Number,867457
+Mandera,Male,Number,434976
+Mandera,Female,Number,432444
+Mandera,Intersex,Number,37
+Mandera,Total Households,Number,125763
+Mandera,Conventional,Number,123954
+Mandera,Group Quarters,Number,1809
+Mandera,Land Area,sq. km,25942
+Mandera,Density,persons per sq. km,33
+Marsabit,Total Population,Number,459785
+Marsabit,Male,Number,243548
+Marsabit,Female,Number,216219
+Marsabit,Intersex,Number,18
+Marsabit,Total Households,Number,77495
+Marsabit,Conventional,Number,76689
+Marsabit,Group Quarters,Number,806
+Marsabit,Land Area,sq. km,70944
+Marsabit,Density,persons per sq. km,6
+Isiolo,Total Population,Number,268002
+Isiolo,Male,Number,139510
+Isiolo,Female,Number,128483
+Isiolo,Intersex,Number,9
+Isiolo,Total Households,Number,58072
+Isiolo,Conventional,Number,53217
+Isiolo,Group Quarters,Number,4855
+Isiolo,Land Area,sq. km,25349
+Isiolo,Density,persons per sq. km,11
+Meru,Total Population,Number,1545714
+Meru,Male,Number,767698
+Meru,Female,Number,777975
+Meru,Intersex,Number,41
+Meru,Total Households,Number,426360
+Meru,Conventional,Number,423931
+Meru,Group Quarters,Number,2429
+Meru,Land Area,sq. km,7014
+Meru,Density,persons per sq. km,220
+Tharaka Nithi,Total Population,Number,393177
+Tharaka Nithi,Male,Number,193764
+Tharaka Nithi,Female,Number,199406
+Tharaka Nithi,Intersex,Number,7
+Tharaka Nithi,Total Households,Number,109860
+Tharaka Nithi,Conventional,Number,109450
+Tharaka Nithi,Group Quarters,Number,410
+Tharaka Nithi,Land Area,sq. km,2564
+Tharaka Nithi,Density,persons per sq. km,153
+Embu,Total Population,Number,608599
+Embu,Male,Number,304208
+Embu,Female,Number,304367
+Embu,Intersex,Number,24
+Embu,Total Households,Number,182743
+Embu,Conventional,Number,182427
+Embu,Group Quarters,Number,316
+Embu,Land Area,sq. km,2821
+Embu,Density,persons per sq. km,216
+Kitui,Total Population,Number,1136187
+Kitui,Male,Number,549003
+Kitui,Female,Number,587151
+Kitui,Intersex,Number,33
+Kitui,Total Households,Number,262942
+Kitui,Conventional,Number,261814
+Kitui,Group Quarters,Number,1128
+Kitui,Land Area,sq. km,30430
+Kitui,Density,persons per sq. km,37
+Machakos,Total Population,Number,1421932
+Machakos,Male,Number,710707
+Machakos,Female,Number,711191
+Machakos,Intersex,Number,34
+Machakos,Total Households,Number,402466
+Machakos,Conventional,Number,399523
+Machakos,Group Quarters,Number,2943
+Machakos,Land Area,sq. km,6037
+Machakos,Density,persons per sq. km,236
+Makueni,Total Population,Number,987653
+Makueni,Male,Number,489691
+Makueni,Female,Number,497942
+Makueni,Intersex,Number,20
+Makueni,Total Households,Number,244669
+Makueni,Conventional,Number,243979
+Makueni,Group Quarters,Number,690
+Makueni,Land Area,sq. km,8177
+Makueni,Density,persons per sq. km,121
+Nyandarua,Total Population,Number,638289
+Nyandarua,Male,Number,315022
+Nyandarua,Female,Number,323247
+Nyandarua,Intersex,Number,20
+Nyandarua,Total Households,Number,179686
+Nyandarua,Conventional,Number,178224
+Nyandarua,Group Quarters,Number,1462
+Nyandarua,Land Area,sq. km,3286
+Nyandarua,Density,persons per sq. km,194
+Nyeri,Total Population,Number,759164
+Nyeri,Male,Number,374288
+Nyeri,Female,Number,384845
+Nyeri,Intersex,Number,31
+Nyeri,Total Households,Number,248050
+Nyeri,Conventional,Number,244564
+Nyeri,Group Quarters,Number,3486
+Nyeri,Land Area,sq. km,3325
+Nyeri,Density,persons per sq. km,228
+Kirinyaga,Total Population,Number,610411
+Kirinyaga,Male,Number,302011
+Kirinyaga,Female,Number,308369
+Kirinyaga,Intersex,Number,31
+Kirinyaga,Total Households,Number,204188
+Kirinyaga,Conventional,Number,203576
+Kirinyaga,Group Quarters,Number,612
+Kirinyaga,Land Area,sq. km,1478
+Kirinyaga,Density,persons per sq. km,413
+Muranga,Total Population,Number,1056640
+Muranga,Male,Number,523940
+Muranga,Female,Number,532669
+Muranga,Intersex,Number,31
+Muranga,Total Households,Number,318105
+Muranga,Conventional,Number,317496
+Muranga,Group Quarters,Number,609
+Muranga,Land Area,sq. km,2523
+Muranga,Density,persons per sq. km,419
+Kiambu,Total Population,Number,2417735
+Kiambu,Male,Number,1187146
+Kiambu,Female,Number,1230454
+Kiambu,Intersex,Number,135
+Kiambu,Total Households,Number,795241
+Kiambu,Conventional,Number,792333
+Kiambu,Group Quarters,Number,2908
+Kiambu,Land Area,sq. km,2539
+Kiambu,Density,persons per sq. km,952
+Turkana,Total Population,Number,926976
+Turkana,Male,Number,478087
+Turkana,Female,Number,448868
+Turkana,Intersex,Number,21
+Turkana,Total Households,Number,164519
+Turkana,Conventional,Number,162627
+Turkana,Group Quarters,Number,1892
+Turkana,Land Area,sq. km,68233
+Turkana,Density,persons per sq. km,14
+West Pokot,Total Population,Number,621241
+West Pokot,Male,Number,307013
+West Pokot,Female,Number,314213
+West Pokot,Intersex,Number,15
+West Pokot,Total Households,Number,116182
+West Pokot,Conventional,Number,115761
+West Pokot,Group Quarters,Number,421
+West Pokot,Land Area,sq. km,9123
+West Pokot,Density,persons per sq. km,68
+Samburu,Total Population,Number,310327
+Samburu,Male,Number,156774
+Samburu,Female,Number,153546
+Samburu,Intersex,Number,7
+Samburu,Total Households,Number,65910
+Samburu,Conventional,Number,63951
+Samburu,Group Quarters,Number,1959
+Samburu,Land Area,sq. km,21090
+Samburu,Density,persons per sq. km,15
+Trans Nzoia,Total Population,Number,990341
+Trans Nzoia,Male,Number,489107
+Trans Nzoia,Female,Number,501206
+Trans Nzoia,Intersex,Number,28
+Trans Nzoia,Total Households,Number,223808
+Trans Nzoia,Conventional,Number,222989
+Trans Nzoia,Group Quarters,Number,819
+Trans Nzoia,Land Area,sq. km,2495
+Trans Nzoia,Density,persons per sq. km,397
+Uasin Gishu,Total Population,Number,1163186
+Uasin Gishu,Male,Number,580269
+Uasin Gishu,Female,Number,582889
+Uasin Gishu,Intersex,Number,28
+Uasin Gishu,Total Households,Number,304943
+Uasin Gishu,Conventional,Number,301110
+Uasin Gishu,Group Quarters,Number,3833
+Uasin Gishu,Land Area,sq. km,3399
+Uasin Gishu,Density,persons per sq. km,342
+Elgeyo Marakwet,Total Population,Number,454480
+Elgeyo Marakwet,Male,Number,227317
+Elgeyo Marakwet,Female,Number,227151
+Elgeyo Marakwet,Intersex,Number,12
+Elgeyo Marakwet,Total Households,Number,99861
+Elgeyo Marakwet,Conventional,Number,99119
+Elgeyo Marakwet,Group Quarters,Number,742
+Elgeyo Marakwet,Land Area,sq. km,3032
+Elgeyo Marakwet,Density,persons per sq. km,150
+Nandi,Total Population,Number,885711
+Nandi,Male,Number,441259
+Nandi,Female,Number,444430
+Nandi,Intersex,Number,22
+Nandi,Total Households,Number,199426
+Nandi,Conventional,Number,199040
+Nandi,Group Quarters,Number,386
+Nandi,Land Area,sq. km,2849
+Nandi,Density,persons per sq. km,311
+Baringo,Total Population,Number,666763
+Baringo,Male,Number,336322
+Baringo,Female,Number,330428
+Baringo,Intersex,Number,13
+Baringo,Total Households,Number,142518
+Baringo,Conventional,Number,141877
+Baringo,Group Quarters,Number,641
+Baringo,Land Area,sq. km,10985
+Baringo,Density,persons per sq. km,61
+Laikipia,Total Population,Number,518560
+Laikipia,Male,Number,259440
+Laikipia,Female,Number,259102
+Laikipia,Intersex,Number,18
+Laikipia,Total Households,Number,149271
+Laikipia,Conventional,Number,145776
+Laikipia,Group Quarters,Number,3495
+Laikipia,Land Area,sq. km,9508
+Laikipia,Density,persons per sq. km,55
+Nakuru,Total Population,Number,2162202
+Nakuru,Male,Number,1077272
+Nakuru,Female,Number,1084835
+Nakuru,Intersex,Number,95
+Nakuru,Total Households,Number,616046
+Nakuru,Conventional,Number,598237
+Nakuru,Group Quarters,Number,17809
+Nakuru,Land Area,sq. km,7505
+Nakuru,Density,persons per sq. km,288
+Narok,Total Population,Number,1157873
+Narok,Male,Number,579042
+Narok,Female,Number,578805
+Narok,Intersex,Number,26
+Narok,Total Households,Number,241125
+Narok,Conventional,Number,238115
+Narok,Group Quarters,Number,3010
+Narok,Land Area,sq. km,17932
+Narok,Density,persons per sq. km,65
+Kajiado,Total Population,Number,1117840
+Kajiado,Male,Number,557098
+Kajiado,Female,Number,560704
+Kajiado,Intersex,Number,38
+Kajiado,Total Households,Number,316179
+Kajiado,Conventional,Number,313218
+Kajiado,Group Quarters,Number,2961
+Kajiado,Land Area,sq. km,21871
+Kajiado,Density,persons per sq. km,51
+Bomet,Total Population,Number,901777
+Bomet,Male,Number,450741
+Bomet,Female,Number,451008
+Bomet,Intersex,Number,28
+Bomet,Total Households,Number,206036
+Bomet,Conventional,Number,205932
+Bomet,Group Quarters,Number,104
+Bomet,Land Area,sq. km,2436
+Bomet,Density,persons per sq. km,370
+Kericho,Total Population,Number,875689
+Kericho,Male,Number,434287
+Kericho,Female,Number,441379
+Kericho,Intersex,Number,23
+Kericho,Total Households,Number,187641
+Kericho,Conventional,Number,187230
+Kericho,Group Quarters,Number,411
+Kericho,Land Area,sq. km,2507
+Kericho,Density,persons per sq. km,349
+Kakamega,Total Population,Number,1867579
+Kakamega,Male,Number,897133
+Kakamega,Female,Number,970406
+Kakamega,Intersex,Number,40
+Kakamega,Total Households,Number,433207
+Kakamega,Conventional,Number,432284
+Kakamega,Group Quarters,Number,923
+Kakamega,Land Area,sq. km,3017
+Kakamega,Density,persons per sq. km,619
+Vihiga,Total Population,Number,590013
+Vihiga,Male,Number,283678
+Vihiga,Female,Number,306323
+Vihiga,Intersex,Number,12
+Vihiga,Total Households,Number,143365
+Vihiga,Conventional,Number,143288
+Vihiga,Group Quarters,Number,77
+Vihiga,Land Area,sq. km,564
+Vihiga,Density,persons per sq. km,1047
+Bungoma,Total Population,Number,1670570
+Bungoma,Male,Number,812146
+Bungoma,Female,Number,858389
+Bungoma,Intersex,Number,35
+Bungoma,Total Households,Number,358796
+Bungoma,Conventional,Number,357714
+Bungoma,Group Quarters,Number,1082
+Bungoma,Land Area,sq. km,3024
+Bungoma,Density,persons per sq. km,552
+Busia,Total Population,Number,893681
+Busia,Male,Number,426252
+Busia,Female,Number,467401
+Busia,Intersex,Number,28
+Busia,Total Households,Number,198152
+Busia,Conventional,Number,197944
+Busia,Group Quarters,Number,208
+Busia,Land Area,sq. km,1700
+Busia,Density,persons per sq. km,526
+Siaya,Total Population,Number,993183
+Siaya,Male,Number,471669
+Siaya,Female,Number,521496
+Siaya,Intersex,Number,18
+Siaya,Total Households,Number,250698
+Siaya,Conventional,Number,249341
+Siaya,Group Quarters,Number,1357
+Siaya,Land Area,sq. km,2530
+Siaya,Density,persons per sq. km,393
+Kisumu,Total Population,Number,1155574
+Kisumu,Male,Number,560942
+Kisumu,Female,Number,594609
+Kisumu,Intersex,Number,23
+Kisumu,Total Households,Number,300745
+Kisumu,Conventional,Number,296846
+Kisumu,Group Quarters,Number,3899
+Kisumu,Land Area,sq. km,2085
+Kisumu,Density,persons per sq. km,554
+Homabay,Total Population,Number,1131950
+Homabay,Male,Number,539560
+Homabay,Female,Number,592367
+Homabay,Intersex,Number,23
+Homabay,Total Households,Number,262036
+Homabay,Conventional,Number,260290
+Homabay,Group Quarters,Number,1746
+Homabay,Land Area,sq. km,3153
+Homabay,Density,persons per sq. km,359
+Kisii,Total Population,Number,1116436
+Kisii,Male,Number,536187
+Kisii,Female,Number,580214
+Kisii,Intersex,Number,35
+Kisii,Total Households,Number,240168
+Kisii,Conventional,Number,238133
+Kisii,Group Quarters,Number,2035
+Kisii,Land Area,sq. km,2613
+Kisii,Density,persons per sq. km,427
+Migori,Total Population,Number,1266860
+Migori,Male,Number,605784
+Migori,Female,Number,661038
+Migori,Intersex,Number,38
+Migori,Total Households,Number,308054
+Migori,Conventional,Number,307254
+Migori,Group Quarters,Number,800
+Migori,Land Area,sq. km,1323
+Migori,Density,persons per sq. km,957
+Nyamira,Total Population,Number,605576
+Nyamira,Male,Number,290907
+Nyamira,Female,Number,314656
+Nyamira,Intersex,Number,13
+Nyamira,Total Households,Number,150669
+Nyamira,Conventional,Number,150499
+Nyamira,Group Quarters,Number,170
+Nyamira,Land Area,sq. km,897
+Nyamira,Density,persons per sq. km,675
+Nairobi City,Total Population,Number,4397073
+Nairobi City,Male,Number,2192452
+Nairobi City,Female,Number,2204376
+Nairobi City,Intersex,Number,245
+Nairobi City,Total Households,Number,1506888
+Nairobi City,Conventional,Number,1494676
+Nairobi City,Group Quarters,Number,12212
+Nairobi City,Land Area,sq. km,704
+Nairobi City,Density,persons per sq. km,6247

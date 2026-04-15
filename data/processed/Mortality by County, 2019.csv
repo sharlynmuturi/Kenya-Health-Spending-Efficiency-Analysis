@@ -1,0 +1,193 @@
+County,Indicator,Units,2019
+Kenya,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,35.5
+Kenya,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,52
+Kenya,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,355
+Kenya,"Crude Death Rate (Per 1,000 Population)",Rate,10.5
+Mombasa,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,30.5
+Mombasa,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,49.2
+Mombasa,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,190
+Mombasa,"Crude Death Rate (Per 1,000 Population)",Rate,9.7
+Kwale,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,35.7
+Kwale,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,55.5
+Kwale,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,464
+Kwale,"Crude Death Rate (Per 1,000 Population)",Rate,8.2
+Kilifi,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,40
+Kilifi,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,62.5
+Kilifi,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,532
+Kilifi,"Crude Death Rate (Per 1,000 Population)",Rate,10.2
+Tana River,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,47.5
+Tana River,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,73.5
+Tana River,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,586
+Tana River,"Crude Death Rate (Per 1,000 Population)",Rate,12.9
+Lamu,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,37.5
+Lamu,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,60.2
+Lamu,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,306
+Lamu,"Crude Death Rate (Per 1,000 Population)",Rate,7
+Taita/Taveta,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,26.3
+Taita/Taveta,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,42.4
+Taita/Taveta,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,257
+Taita/Taveta,"Crude Death Rate (Per 1,000 Population)",Rate,13.6
+Garissa,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,42.1
+Garissa,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,64.6
+Garissa,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,641
+Garissa,"Crude Death Rate (Per 1,000 Population)",Rate,6.5
+Wajir,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,41.9
+Wajir,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,63.5
+Wajir,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,403
+Wajir,"Crude Death Rate (Per 1,000 Population)",Rate,11.6
+Mandera,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,41.3
+Mandera,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,63.5
+Mandera,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,385
+Mandera,"Crude Death Rate (Per 1,000 Population)",Rate,9.1
+Marsabit,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,26.4
+Marsabit,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,42.5
+Marsabit,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,321
+Marsabit,"Crude Death Rate (Per 1,000 Population)",Rate,12.9
+Isiolo,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,35.1
+Isiolo,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,56.6
+Isiolo,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,451
+Isiolo,"Crude Death Rate (Per 1,000 Population)",Rate,10.6
+Meru,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,33.4
+Meru,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,53.9
+Meru,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,291
+Meru,"Crude Death Rate (Per 1,000 Population)",Rate,8.2
+Tharaka-Nithi,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,18.5
+Tharaka-Nithi,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,29.8
+Tharaka-Nithi,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,332
+Tharaka-Nithi,"Crude Death Rate (Per 1,000 Population)",Rate,10.6
+Embu,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,26.3
+Embu,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,42.4
+Embu,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,244
+Embu,"Crude Death Rate (Per 1,000 Population)",Rate,7.5
+Kitui,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,24.9
+Kitui,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,40.1
+Kitui,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,253
+Kitui,"Crude Death Rate (Per 1,000 Population)",Rate,7.4
+Machakos,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,28.5
+Machakos,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,44
+Machakos,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,398
+Machakos,"Crude Death Rate (Per 1,000 Population)",Rate,7.4
+Makueni,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,30.9
+Makueni,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,48
+Makueni,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,479
+Makueni,"Crude Death Rate (Per 1,000 Population)",Rate,5.5
+Nyandarua,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,30.1
+Nyandarua,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,46.5
+Nyandarua,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,466
+Nyandarua,"Crude Death Rate (Per 1,000 Population)",Rate,11.6
+Nyeri,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,28.3
+Nyeri,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,41.5
+Nyeri,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,67
+Nyeri,"Crude Death Rate (Per 1,000 Population)",Rate,10.2
+Kirinyaga,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,24.1
+Kirinyaga,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,39
+Kirinyaga,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,248
+Kirinyaga,"Crude Death Rate (Per 1,000 Population)",Rate,10
+Murang’a,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,30.6
+Murang’a,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,46.5
+Murang’a,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,469
+Murang’a,"Crude Death Rate (Per 1,000 Population)",Rate,10.8
+Kiambu,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,19.3
+Kiambu,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,31.2
+Kiambu,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,171
+Kiambu,"Crude Death Rate (Per 1,000 Population)",Rate,8.8
+Turkana,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,39.8
+Turkana,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,64.2
+Turkana,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,381
+Turkana,"Crude Death Rate (Per 1,000 Population)",Rate,6.2
+West Pokot,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,38
+West Pokot,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,58.5
+West Pokot,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,473
+West Pokot,"Crude Death Rate (Per 1,000 Population)",Rate,12
+Samburu,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,24.1
+Samburu,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,39
+Samburu,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,275
+Samburu,"Crude Death Rate (Per 1,000 Population)",Rate,11.2
+Trans Nzoia,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,31.6
+Trans Nzoia,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,51.1
+Trans Nzoia,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,287
+Trans Nzoia,"Crude Death Rate (Per 1,000 Population)",Rate,8.9
+Uasin Gishu,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,24.7
+Uasin Gishu,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,39.8
+Uasin Gishu,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,204
+Uasin Gishu,"Crude Death Rate (Per 1,000 Population)",Rate,11.5
+Elgeyo/ Marakwet,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,32.7
+Elgeyo/ Marakwet,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,50.5
+Elgeyo/ Marakwet,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,435
+Elgeyo/ Marakwet,"Crude Death Rate (Per 1,000 Population)",Rate,8.1
+Nandi,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,26.4
+Nandi,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,42.6
+Nandi,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,264
+Nandi,"Crude Death Rate (Per 1,000 Population)",Rate,12.8
+Baringo,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,26.4
+Baringo,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,42.4
+Baringo,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,274
+Baringo,"Crude Death Rate (Per 1,000 Population)",Rate,6.9
+Laikipia,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,17.3
+Laikipia,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,27.9
+Laikipia,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,182
+Laikipia,"Crude Death Rate (Per 1,000 Population)",Rate,11.6
+Nakuru,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,32.8
+Nakuru,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,52.9
+Nakuru,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,261
+Nakuru,"Crude Death Rate (Per 1,000 Population)",Rate,9.5
+Narok,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,37.2
+Narok,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,57
+Narok,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,522
+Narok,"Crude Death Rate (Per 1,000 Population)",Rate,14.1
+Kajiado,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,29.4
+Kajiado,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,45.5
+Kajiado,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,495
+Kajiado,"Crude Death Rate (Per 1,000 Population)",Rate,8.1
+Kericho,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,31.1
+Kericho,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,48
+Kericho,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,543
+Kericho,"Crude Death Rate (Per 1,000 Population)",Rate,13
+Bomet,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,33.2
+Bomet,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,50.5
+Bomet,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,554
+Bomet,"Crude Death Rate (Per 1,000 Population)",Rate,12.9
+Kakamega,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,37.3
+Kakamega,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,60.2
+Kakamega,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,279
+Kakamega,"Crude Death Rate (Per 1,000 Population)",Rate,13.9
+Vihiga,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,45.4
+Vihiga,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,73.4
+Vihiga,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,393
+Vihiga,"Crude Death Rate (Per 1,000 Population)",Rate,9.4
+Bungoma,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,30.5
+Bungoma,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,49.2
+Bungoma,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,238
+Bungoma,"Crude Death Rate (Per 1,000 Population)",Rate,10.2
+Busia,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,40.9
+Busia,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,65.9
+Busia,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,273
+Busia,"Crude Death Rate (Per 1,000 Population)",Rate,9.2
+Siaya,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,41.8
+Siaya,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,67.4
+Siaya,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,424
+Siaya,"Crude Death Rate (Per 1,000 Population)",Rate,15.5
+Kisumu,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,39.1
+Kisumu,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,63.1
+Kisumu,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,343
+Kisumu,"Crude Death Rate (Per 1,000 Population)",Rate,7
+Homa Bay,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,57.5
+Homa Bay,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,92.2
+Homa Bay,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,516
+Homa Bay,"Crude Death Rate (Per 1,000 Population)",Rate,8.7
+Migori,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,67.2
+Migori,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,107.2
+Migori,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,412
+Migori,"Crude Death Rate (Per 1,000 Population)",Rate,12.3
+Kisii,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,25.9
+Kisii,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,41.7
+Kisii,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,325
+Kisii,"Crude Death Rate (Per 1,000 Population)",Rate,9.8
+Nyamira,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,27.1
+Nyamira,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,43.8
+Nyamira,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,349
+Nyamira,"Crude Death Rate (Per 1,000 Population)",Rate,7.6
+Nairobi City,"Infant Mortality Rate (Per 1,000 Live Births)",Rate,35.7
+Nairobi City,"Under 5 Mortality Rate (Per 1,000 Live Births)",Rate,57.7
+Nairobi City,"Maternal Mortality Rate (Per 100,000 Live Births)",Rate,326
+Nairobi City,"Crude Death Rate (Per 1,000 Population)",Rate,9.2

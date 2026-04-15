@@ -1,0 +1,193 @@
+Administrative Unit,Indicator,Units,2016,2017,2018,2019,2020
+Kenya,Live Births,Number,968671,865698,1078631,1127261,1143987
+Kenya,Still Births,Number,21251,20047,22387,22818,22627
+Kenya,Neonatal Deaths,Number,11141,8171,11380,11745,10847
+Kenya,Maternal Deaths,Number,1276,1045,1032,1076,1332
+Mombasa,Live Births,Number,28651,29710,33398,34146,30053
+Mombasa,Still Births,Number,1048,1077,1029,814,754
+Mombasa,Neonatal Deaths,Number,375,387,547,509,297
+Mombasa,Maternal Deaths,Number,52,56,50,76,73
+Kwale,Live Births,Number,20473,14230,22164,23592,23334
+Kwale,Still Births,Number,464,424,511,556,473
+Kwale,Neonatal Deaths,Number,145,95,141,169,162
+Kwale,Maternal Deaths,Number,42,42,14,9,41
+Kilifi,Live Births,Number,32795,24369,38865,40385,40103
+Kilifi,Still Births,Number,890,893,1033,998,941
+Kilifi,Neonatal Deaths,Number,199,185,198,203,253
+Kilifi,Maternal Deaths,Number,37,31,41,33,50
+Tana River,Live Births,Number,4587,3311,5537,6616,6449
+Tana River,Still Births,Number,156,138,232,231,193
+Tana River,Neonatal Deaths,Number,24,19,43,27,20
+Tana River,Maternal Deaths,Number,20,6,10,10,8
+Lamu,Live Births,Number,2508,2664,3377,3751,3781
+Lamu,Still Births,Number,102,100,94,120,100
+Lamu,Neonatal Deaths,Number,39,42,27,40,43
+Lamu,Maternal Deaths,Number,8,9,2,1,7
+Taita Taveta,Live Births,Number,6688,4926,7677,6763,7448
+Taita Taveta,Still Births,Number,159,134,158,123,175
+Taita Taveta,Neonatal Deaths,Number,53,49,61,38,75
+Taita Taveta,Maternal Deaths,Number,9,6,7,2,8
+Garissa,Live Births,Number,11278,10931,14378,14457,19393
+Garissa,Still Births,Number,274,213,343,299,538
+Garissa,Neonatal Deaths,Number,74,82,103,69,104
+Garissa,Maternal Deaths,Number,28,17,29,31,65
+Wajir,Live Births,Number,11683,10802,11831,11856,11010
+Wajir,Still Births,Number,240,258,252,277,281
+Wajir,Neonatal Deaths,Number,44,62,73,67,66
+Wajir,Maternal Deaths,Number,14,19,9,12,14
+Mandera,Live Births,Number,13034,13060,20898,19670,20852
+Mandera,Still Births,Number,314,309,519,450,477
+Mandera,Neonatal Deaths,Number,12,9,34,25,32
+Mandera,Maternal Deaths,Number,14,6,17,22,20
+Marsabit,Live Births,Number,6065,4860,9060,9274,9454
+Marsabit,Still Births,Number,199,153,243,291,280
+Marsabit,Neonatal Deaths,Number,43,35,50,53,40
+Marsabit,Maternal Deaths,Number,10,12,13,16,12
+Isiolo,Live Births,Number,4357,3402,5256,5255,5029
+Isiolo,Still Births,Number,129,70,123,112,136
+Isiolo,Neonatal Deaths,Number,48,18,29,51,50
+Isiolo,Maternal Deaths,Number,6,2,6,9,6
+Meru,Live Births,Number,29250,28364,28914,31427,30764
+Meru,Still Births,Number,650,534,650,602,613
+Meru,Neonatal Deaths,Number,311,268,370,366,321
+Meru,Maternal Deaths,Number,65,68,23,40,29
+Tharaka Nithi,Live Births,Number,6404,5238,7647,7342,7996
+Tharaka Nithi,Still Births,Number,277,190,137,118,130
+Tharaka Nithi,Neonatal Deaths,Number,85,70,92,83,73
+Tharaka Nithi,Maternal Deaths,Number,7,4,9,3,3
+Embu,Live Births,Number,10945,8617,12134,13377,12731
+Embu,Still Births,Number,238,240,305,286,274
+Embu,Neonatal Deaths,Number,208,122,290,221,160
+Embu,Maternal Deaths,Number,12,9,12,17,14
+Kitui,Live Births,Number,16432,15886,20315,20995,20601
+Kitui,Still Births,Number,599,394,508,388,474
+Kitui,Neonatal Deaths,Number,177,149,165,214,239
+Kitui,Maternal Deaths,Number,28,16,17,19,29
+Machakos,Live Births,Number,25055,21810,25809,26253,26102
+Machakos,Still Births,Number,385,325,484,563,519
+Machakos,Neonatal Deaths,Number,319,149,209,210,216
+Machakos,Maternal Deaths,Number,29,15,8,15,27
+Makueni,Live Births,Number,15632,14664,17841,18362,19804
+Makueni,Still Births,Number,356,340,423,341,358
+Makueni,Neonatal Deaths,Number,180,99,157,160,177
+Makueni,Maternal Deaths,Number,13,18,14,15,25
+Nyandarua,Live Births,Number,10281,9199,10297,10935,11029
+Nyandarua,Still Births,Number,146,130,168,201,187
+Nyandarua,Neonatal Deaths,Number,83,52,50,53,46
+Nyandarua,Maternal Deaths,Number,10,2,8,12,11
+Nyeri,Live Births,Number,14129,13890,14907,16140,16052
+Nyeri,Still Births,Number,263,287,330,268,302
+Nyeri,Neonatal Deaths,Number,166,173,148,191,156
+Nyeri,Maternal Deaths,Number,13,17,21,19,16
+Kirinyaga,Live Births,Number,11017,11427,11622,11361,12902
+Kirinyaga,Still Births,Number,150,215,164,159,222
+Kirinyaga,Neonatal Deaths,Number,144,123,101,72,86
+Kirinyaga,Maternal Deaths,Number,12,4,6,9,11
+Muranga,Live Births,Number,15853,15303,16910,17371,19729
+Muranga,Still Births,Number,298,226,320,308,385
+Muranga,Neonatal Deaths,Number,159,108,146,162,171
+Muranga,Maternal Deaths,Number,6,19,11,13,26
+Kiambu,Live Births,Number,59999,54280,65857,68964,66464
+Kiambu,Still Births,Number,1031,927,1201,1211,1124
+Kiambu,Neonatal Deaths,Number,671,470,926,877,686
+Kiambu,Maternal Deaths,Number,38,38,51,44,58
+Turkana,Live Births,Number,12501,12718,17937,21256,20525
+Turkana,Still Births,Number,296,244,362,387,378
+Turkana,Neonatal Deaths,Number,153,158,207,192,234
+Turkana,Maternal Deaths,Number,34,26,30,21,23
+West Pokot,Live Births,Number,9739,8002,12912,13811,16213
+West Pokot,Still Births,Number,350,375,365,394,440
+West Pokot,Neonatal Deaths,Number,123,87,105,158,136
+West Pokot,Maternal Deaths,Number,13,12,18,16,16
+Samburu,Live Births,Number,3997,3870,5108,5515,5604
+Samburu,Still Births,Number,92,78,93,129,146
+Samburu,Neonatal Deaths,Number,47,26,25,46,102
+Samburu,Maternal Deaths,Number,9,3,8,9,7
+Trans Nzoia,Live Births,Number,15163,10682,17730,19733,20082
+Trans Nzoia,Still Births,Number,353,238,372,370,481
+Trans Nzoia,Neonatal Deaths,Number,209,111,236,271,255
+Trans Nzoia,Maternal Deaths,Number,25,15,24,17,9
+Uasin Gishu,Live Births,Number,25678,25488,28021,30420,31547
+Uasin Gishu,Still Births,Number,744,620,497,474,500
+Uasin Gishu,Neonatal Deaths,Number,514,534,702,642,458
+Uasin Gishu,Maternal Deaths,Number,37,25,32,29,30
+Elgeyo Marakwet,Live Births,Number,9811,8118,10763,10499,11341
+Elgeyo Marakwet,Still Births,Number,185,236,207,200,228
+Elgeyo Marakwet,Neonatal Deaths,Number,84,123,98,77,63
+Elgeyo Marakwet,Maternal Deaths,Number,12,1,6,2,6
+Nandi,Live Births,Number,14050,12290,14524,15329,15849
+Nandi,Still Births,Number,291,261,325,362,326
+Nandi,Neonatal Deaths,Number,109,50,120,100,79
+Nandi,Maternal Deaths,Number,10,5,7,8,7
+Baringo,Live Births,Number,12275,10937,13877,13538,14163
+Baringo,Still Births,Number,264,276,223,267,295
+Baringo,Neonatal Deaths,Number,78,52,79,114,130
+Baringo,Maternal Deaths,Number,11,16,8,17,5
+Laikipia,Live Births,Number,11914,10718,14048,13701,15514
+Laikipia,Still Births,Number,273,211,335,292,313
+Laikipia,Neonatal Deaths,Number,102,73,107,102,132
+Laikipia,Maternal Deaths,Number,13,9,10,16,20
+Nakuru,Live Births,Number,45828,40816,51419,54010,56832
+Nakuru,Still Births,Number,890,1023,955,1068,1003
+Nakuru,Neonatal Deaths,Number,597,354,717,686,521
+Nakuru,Maternal Deaths,Number,49,27,51,51,63
+Narok,Live Births,Number,15010,11378,16898,20202,21156
+Narok,Still Births,Number,338,523,589,933,462
+Narok,Neonatal Deaths,Number,98,82,109,120,124
+Narok,Maternal Deaths,Number,27,16,8,12,22
+Kajiado,Live Births,Number,17448,15395,20913,25193,27262
+Kajiado,Still Births,Number,463,338,416,558,551
+Kajiado,Neonatal Deaths,Number,121,102,146,192,153
+Kajiado,Maternal Deaths,Number,17,15,20,11,29
+Bomet,Live Births,Number,11670,14930,15933,18255,18570
+Bomet,Still Births,Number,390,426,332,436,452
+Bomet,Neonatal Deaths,Number,109,200,116,147,76
+Bomet,Maternal Deaths,Number,17,15,18,15,11
+Kericho,Live Births,Number,20225,14928,20364,22679,22875
+Kericho,Still Births,Number,566,467,472,644,569
+Kericho,Neonatal Deaths,Number,258,163,227,296,346
+Kericho,Maternal Deaths,Number,21,6,25,15,22
+Kakamega,Live Births,Number,42218,37489,44530,45107,44819
+Kakamega,Still Births,Number,836,777,893,852,768
+Kakamega,Neonatal Deaths,Number,397,230,494,505,542
+Kakamega,Maternal Deaths,Number,51,38,43,52,45
+Vihiga,Live Births,Number,11861,8755,12341,12824,11639
+Vihiga,Still Births,Number,262,209,229,236,266
+Vihiga,Neonatal Deaths,Number,101,38,69,81,84
+Vihiga,Maternal Deaths,Number,14,45,15,12,5
+Bungoma,Live Births,Number,38598,36187,45341,45640,48323
+Bungoma,Still Births,Number,591,633,669,652,749
+Bungoma,Neonatal Deaths,Number,393,261,448,423,565
+Bungoma,Maternal Deaths,Number,33,47,26,29,46
+Busia,Live Births,Number,17684,13428,20167,20099,18479
+Busia,Still Births,Number,412,350,485,455,412
+Busia,Neonatal Deaths,Number,172,78,172,198,185
+Busia,Maternal Deaths,Number,23,19,13,16,24
+Siaya,Live Births,Number,23983,20598,25144,26761,27741
+Siaya,Still Births,Number,469,468,598,640,570
+Siaya,Neonatal Deaths,Number,207,166,246,290,250
+Siaya,Maternal Deaths,Number,27,19,13,12,32
+Kisumu,Live Births,Number,28615,24824,32372,31147,31628
+Kisumu,Still Births,Number,663,644,671,606,652
+Kisumu,Neonatal Deaths,Number,342,197,399,308,400
+Kisumu,Maternal Deaths,Number,64,42,49,55,75
+Homabay,Live Births,Number,26793,22387,27007,28300,29160
+Homabay,Still Births,Number,441,441,434,472,538
+Homabay,Neonatal Deaths,Number,234,104,191,175,196
+Homabay,Maternal Deaths,Number,27,25,19,24,24
+Kisii,Live Births,Number,32694,28367,31430,31080,32352
+Kisii,Still Births,Number,519,473,544,457,415
+Kisii,Neonatal Deaths,Number,496,202,319,253,215
+Kisii,Maternal Deaths,Number,34,15,40,35,28
+Migori,Live Births,Number,30472,26644,36873,37745,38341
+Migori,Still Births,Number,544,448,494,520,527
+Migori,Neonatal Deaths,Number,133,108,171,173,185
+Migori,Maternal Deaths,Number,29,23,36,35,46
+Nyamira,Live Births,Number,18475,12101,12122,13772,14115
+Nyamira,Still Births,Number,177,76,180,214,163
+Nyamira,Neonatal Deaths,Number,94,27,44,126,92
+Nyamira,Maternal Deaths,Number,13,5,1,2,5
+Nairobi City,Live Births,Number,114853,113705,126163,132352,128777
+Nairobi City,Still Births,Number,2474,2635,2420,2484,2487
+Nairobi City,Neonatal Deaths,Number,2411,1879,1873,2210,1851
+Nairobi City,Maternal Deaths,Number,193,160,134,138,179
