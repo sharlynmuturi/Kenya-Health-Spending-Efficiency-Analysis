@@ -131,7 +131,7 @@ The model evaluates how effectively counties convert **spending (input)** into *
 
 ### Clustering (K-Means)
 
-# | Cluster | Interpretation |
+| Cluster | Interpretation |
 | --- | --- |
 | High spend + high outcome | Efficient |
 | High spend + low outcome | Inefficient |
