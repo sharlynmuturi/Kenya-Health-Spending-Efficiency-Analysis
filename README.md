@@ -73,9 +73,9 @@ The project follows a **Medallion Architecture** for scalability and reproducibi
 *   Health system data (facilities, workforce, expenditure)
 
 
-> [Kenya Open Data Portal][https://kenya.opendataforafrica.org/]
-> [The Kenya National Bureau of Statistics (KNBS)][https://www.knbs.or.ke/]
-> [National and County Health Budget Analysis FY 2018/19][https://africacheck.org/sites/default/files/media/documents/2021-02/NATIONAL%20AND%20COUNTY%20HEALTH%20BUDGET%20ANALYSIS%20FY%202018-19.pdf]
+- > [Kenya Open Data Portal](https://kenya.opendataforafrica.org/)
+- > [The Kenya National Bureau of Statistics (KNBS)](https://www.knbs.or.ke/)
+- > [National and County Health Budget Analysis FY 2018/19](https://africacheck.org/sites/default/files/media/documents/2021-02/NATIONAL%20AND%20COUNTY%20HEALTH%20BUDGET%20ANALYSIS%20FY%202018-19.pdf)
 
 ### Silver Layer (Clean & Structured)
 
