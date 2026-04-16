@@ -330,7 +330,9 @@ display(
 # MAGIC ### 1. High Spending Does Not Guarantee High Efficiency
 # MAGIC Several counties with the **highest per capita health spending** do not rank highly in efficiency:
 # MAGIC
-# MAGIC - **Nairobi City** has the highest spending per capita (~1575) and the largest total health budget, yet ranks **1st in efficiency rank but only mid-level outcome score (0.60)**, indicating diminishing returns at very high spending levels.
+# MAGIC - Lamu is the **highest spending county (~8502 per capita)**, but records a moderate outcome score (0.59), suggesting inefficient conversion of resources into outcomes.
+# MAGIC - Several other relatively high-spending counties (e.g., Marsabit, Baringo, Embu, Samburu) achieve better outcomes, but still fall into the same general cluster as lower-performing counties, indicating system-wide inefficiencies rather than isolated issues.
+# MAGIC - **Nairobi City** has the largest total health budget, yet ranks **1st in efficiency rank but only mid-level outcome score (0.60)**, indicating diminishing returns at very high spending levels.
 # MAGIC - Counties like **Mombasa, Kiambu, and Uasin Gishu** also exhibit relatively high spending but only moderate efficiency scores.
 # MAGIC
 # MAGIC This suggests that beyond a certain threshold, **additional spending yields weaker marginal improvements in health outcomes**.
@@ -342,8 +344,6 @@ display(
 # MAGIC - These counties demonstrate signs of **higher operational efficiency and better resource utilization**.
 # MAGIC
 # MAGIC This indicates that **management efficiency and service delivery quality matter as much as budget size**.
-# MAGIC
-# MAGIC ---
 # MAGIC
 # MAGIC ### 3. Persistently Low Efficiency Counties
 # MAGIC Several counties consistently underperform in both spending efficiency and outcomes:
@@ -390,3 +390,29 @@ display(
 # MAGIC > “Kenya’s health system efficiency is not determined by spending levels alone, but by how effectively counties convert resources into improved health outcomes.”
 # MAGIC
 # MAGIC This analysis highlights **significant disparities in efficiency across counties**, providing a strong foundation for evidence-based policy decisions and resource reallocation.
+
+# COMMAND ----------
+
+from pyspark.sql.functions import lit
+from pyspark.sql.window import Window
+
+df_final = df_final.withColumn("dummy", lit(1))
+
+window = Window.partitionBy("dummy").orderBy(col("efficiency_score").desc())
+
+df_final = df_final.withColumn(
+    "efficiency_rank",
+    row_number().over(window)
+).drop("dummy")
+
+# COMMAND ----------
+
+display(df_final)
+
+# COMMAND ----------
+
+df_export = df_final.drop("features")
+
+# COMMAND ----------
+
+display(df_export)
