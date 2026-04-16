@@ -4,235 +4,131 @@
 
 ## 1. Project Overview
 
-This project analyzes how efficiently Kenyan counties utilize public health funds to produce measurable healthcare outcomes.
+This project analyzes how efficiently Kenyan counties convert public health spending into measurable healthcare outcomes.
 
-It answers a critical policy question:
+It answers a key policy question:
 
 > **Are counties using public funds efficiently to improve health outcomes?**
 
-Using a combination of **data engineering (PySpark + Medallion Architecture)** and **analytical modeling**, the project quantifies efficiency, ranks counties, and generates actionable policy insights.
+Using **PySpark, Databricks, and a Medallion Architecture**, the project builds a scalable data pipeline, constructs an interpretable efficiency model, and generates actionable insights for policy and planning.
 
+_For a detailed analysis, methodology, and visual insights, see the full report included in this repository. `Report - Government Health Spending Efficiency Analysis.pdf`_
 
 ## 2. Objectives
-
 
 *   Measure **efficiency of health spending** at the county level
 *   Compare **resource allocation vs actual outcomes**
 *   Identify **high-performing and underperforming counties**
-*   Provide **data-driven policy recommendations**
-*   Build a **scalable analytics pipeline** using modern data architecture
+*   Generate **data-driven policy recommendations**
 
 ## 3. Problem Statement
 
-> Which counties in Kenya are most efficient in converting health expenditure into improved healthcare outcomes?
-    
-This analysis reveals a **strong disconnect between health spending levels and efficiency outcomes across counties** in Kenya.
+> **Which counties in Kenya are most efficient in converting health expenditure into improved healthcare outcomes?**
 
-### 1. High Spending Does Not Guarantee High Efficiency
-Several counties with the **highest per capita health spending** do not rank highly in efficiency:
+## 4. Key Insights
 
-- **Nairobi City** has the highest spending per capita (~1575) and the largest total health budget, yet ranks **1st in efficiency rank but only mid-level outcome score (0.60)**, indicating diminishing returns at very high spending levels.
-- Counties like **Mombasa, Kiambu, and Uasin Gishu** also exhibit relatively high spending but only moderate efficiency scores.
+### 1. Spending Does Not Guarantee Efficiency
 
-This suggests that beyond a certain threshold, **additional spending yields weaker marginal improvements in health outcomes**.
+Higher spending does not consistently translate into better outcomes.  
+Several high-spending counties achieve only moderate results, suggesting **diminishing returns** at higher budget levels.
 
-### 2. Low-Resource Counties Show Mixed Performance
-Some lower-spending counties perform better than expected:
+### 2. Efficient Use of Limited Resources
 
-- **Laikipia (rank 18)** and **Nyeri (rank 23)** achieve relatively strong outcome scores despite moderate spending levels.
-- These counties demonstrate signs of **higher operational efficiency and better resource utilization**.
+Some counties deliver strong outcomes despite moderate or low spending, indicating **better resource utilization and operational efficiency**.
 
-This indicates that **management efficiency and service delivery quality matter as much as budget size**.
+### 3. Structural Challenges in Low-Performing Counties
 
-### 3. Persistently Low Efficiency Counties
-Several counties consistently underperform in both spending efficiency and outcomes:
+Counties such as Turkana, Wajir, and Mandera show persistently low efficiency, likely due to Geographic constraints, Limited infrastructure or workforce shortages
 
-- **Turkana, Wajir, Mandera, West Pokot, and Garissa**
-  - Moderate-to-low efficiency scores
-  - Low outcome scores
-  - High population pressure and geographic constraints
+### 4. Clear Performance Segmentation
 
-These regions likely face **structural challenges (accessibility, infrastructure, workforce shortages)** rather than purely financial constraints.
+Clustering reveals distinct groups:
 
-### 4. Efficiency Clusters Are Clearly Visible
-The clustering column (`prediction`) separates counties into clear groups:
+*   **Efficient:** Strong outcomes relative to spending
+*   **Inefficient:** High spending, weak outcomes
+*   **Under-resourced:** Low spending and poor outcomes
+*   **High-performing:** High spending with strong outcomes
 
-- **Cluster 1 (High efficiency / better outcomes)**:
-  - Includes Nairobi, Kiambu, Uasin Gishu, Meru
-  - Generally better outcomes and higher productivity per shilling spent
+### 5. Core Insight
 
-- **Cluster 0 (Low efficiency despite high spending)**:
-  - Includes Kilifi, Kakamega, Nakuru, Kisumu
-  - Suggests inefficiencies in resource allocation or service delivery
+> **Efficiency is driven not by how much is spent, but by how effectively resources are used.**
 
-- **Cluster 3 (Low spending + moderate outcomes)**:
-  - Includes Samburu, Marsabit, Embu, Baringo
-  - Indicates constrained systems operating near capacity
+## 5. Project Architecture (Medallion Framework)
 
-### 5. Key Pattern: Diminishing Returns of Spending
-A clear trend emerges:
-
-> Counties with extremely high health spending per capita do not always achieve proportional improvements in health outcomes.
-
-This supports the idea of **diminishing marginal returns in public health expenditure**.
-
-### Policy Implications
-
-- **Reallocate resources toward efficiency gains, not just higher budgets**
-- Strengthen **health system management in low-efficiency high-spend counties**
-- Invest in **infrastructure and access in arid and semi-arid counties**
-- Use efficient counties (e.g., Kiambu, Meru, Uasin Gishu) as **benchmark models**
-- Shift focus from “how much is spent” to **“how effectively it is used”**
-
-### Core Takeaway
-
-> “Kenya’s health system efficiency is not determined by spending levels alone, but by how effectively counties convert resources into improved health outcomes.”
-
-This analysis highlights **significant disparities in efficiency across counties**, providing a strong foundation for evidence-based policy decisions and resource reallocation.
-
-
-## 4. Project Architecture (Medallion Framework)
-
-The project follows a **Medallion Architecture** to ensure scalability, reproducibility, and clarity.
+The project follows a **Medallion Architecture** for scalability and reproducibility:
 
 ### Bronze Layer (Raw Data)
 
-*   Ingested raw CSV datasets into Delta tables
+*   Ingested raw datasets into Delta tables
 *   No transformations applied
-*   Preserves original data for traceability
+*   Ensures traceability
     
 
 **Datasets include:**
 
-*   County budget allocations
-*   Budget breakdown (recurrent vs development)
+*   County budgets (total + breakdown)
 *   Population (2019 Census)
-*   Mortality indicators (2019)
-*   Maternal, neonatal, and foetal deaths (2016–2020)
-*   Health facilities (national level)
-*   Health professionals (national level)
-*   National health expenditure trends
+*   Mortality indicators
+*   Maternal & neonatal deaths (2016–2020)
+*   Health system data (facilities, workforce, expenditure)
     
 
-### Silver Layer (Clean & Structured Data)
+### Silver Layer (Clean & Structured)
 
-This layer transforms raw data into **analysis-ready datasets**.
-
-#### Key transformations:
-
-*   Standardized county names across all datasets
-*   Cleaned and normalized column formats
-*   Filtered population data to extract total population
-*   Pivoted mortality indicators into structured columns
-*   Averaged multi-year datasets (2018–2020) for stability
-*   Created derived metrics such as:
-    *   Health spending share
-    *   Population-adjusted indicators
+*   Standardized county names
+*   Cleaned and normalized data
+*   Pivoted and reshaped datasets
+*   Aligned time periods (2018–2020 averages where needed)
+*   Created derived metrics:
+    *   Health spending per capita
+    *   Health budget share
         
-
-#### Output:
-
-A unified dataset:
-
-    master_county_health
-
-This table contains:
-
-*   Budget metrics
-*   Population data
-*   Mortality indicators
-*   Derived features (e.g., health_spend_per_capita)
-
 
 ### Gold Layer (Analytics & Modeling)
 
-This is the **core analytical layer** where efficiency is calculated.
 
-## 5. Efficiency Model
+*   Efficiency scoring model
+*   County ranking
+*   Clustering (K-Means segmentation)
 
-### Model Approach: Interpretable Composite Index
+## 6. Efficiency Model
 
-The model evaluates how well counties convert **inputs (spending)** into **outputs (health outcomes)**.
+### Approach: Simple, Interpretable Composite Index
 
-### Inputs (Cost)
+The model evaluates how effectively counties convert **spending (input)** into **health outcomes (outputs)**.
 
-*   Health spending per capita
-    
-
-### Outputs (Outcomes)
-
-*   Infant mortality rate
-*   Maternal mortality rate
-*   Under-5 mortality rate
+- Input - Health spending per capita
+- Outputs(Outcomes) - Infant mortality rate, Maternal mortality rate, Under-5 mortality rate
     
 
 ### Methodology
 
-#### Step 1: Normalization
-
-All variables are scaled using **Min-Max normalization** to ensure comparability.
-
-#### Step 2: Outcome Scoring
-
-Mortality indicators are inverted so that:
-
-*   Lower mortality - Higher score
-    
-A composite **Outcome Score** is computed as:
-
-    Average of normalized outcome indicators
-
-#### Step 3: Cost Efficiency Calculation
-
-Efficiency is defined as:
-
+1.  **Normalization (Min-Max Scaling)**
+2.  **Outcome Scoring**
+    *   Mortality rates inverted (lower = better)
+    *   Combined into a single **Outcome Score** 
+3.  **Efficiency Calculation**
     Efficiency = Outcome Score / Normalized Spending
-
-This captures:
-
-> “How much outcome improvement is achieved per unit of spending”
-
-#### Step 4: Final Efficiency Score (0–100)
-
-Scores are rescaled to a **0–100 range** for interpretability.
-
-## 6. Key Outputs
-
-The final dataset:
-
-    gov_spending.gold.county_efficiency
-
-### Contains:
-
-## | Column | Description |
-| --- | --- |
-| County | County name |
-| health_spend_per_capita | Spending adjusted for population |
-| outcome_score | Composite health outcome score |
-| efficiency_score | Final efficiency metric (0–100) |
-| efficiency_rank | Ranking of counties |
-| prediction | Cluster group |
+4.  **Final Score Scaling**
+    *   Converted to a **0–100 efficiency score**
 
 
-## 7. Analytical Outputs
+## 8. Analytical Outputs
 
-### 1. Efficiency Rankings
+### Efficiency Rankings
 
-*   Identifies **top-performing counties**
-*   Highlights **inefficient counties**
+*   Identifies top and bottom performing counties
     
 
-### 2. Spending vs Outcomes Analysis
+### Spending vs Outcomes
 
-*   Reveals weak correlation between spending and results
-*   Demonstrates **diminishing returns on expenditure**
+*   Shows weak correlation between spending and results
+*   Highlights **diminishing returns**
     
 
-### 3. Clustering (K-Means)
+### Clustering (K-Means)
 
-Counties are grouped into 4 clusters:
-
-| Cluster | Interpretation |
+# | Cluster | Interpretation |
 | --- | --- |
 | High spend + high outcome | Efficient |
 | High spend + low outcome | Inefficient |
@@ -240,80 +136,47 @@ Counties are grouped into 4 clusters:
 | Low spend + low outcome | Under-resourced |
 
 
-### 4. Key Insights
+## 9. Visualizations
 
-*   High spending does not guarantee better outcomes
-*   Some counties achieve strong results with limited resources
-*   Structural challenges affect performance in certain regions
-*   Efficiency varies significantly across counties
-    
+The project supports dashboards in **Databricks, Power BI, or Tableau**, including:
 
-## 8. Visualization (Planned / Implemented)
-
-The dataset supports interactive dashboards in **Power BI / Tableau**, including:
-
-*   Choropleth map (efficiency by county)
-*   Spending vs outcome scatter plots
 *   Efficiency ranking bar charts
-*   Cluster segmentation visuals
+*   Spending vs outcome scatter plots
+*   Cluster segmentation analysis
+*   Efficiency distribution (histogram)
+*   Budget composition (recurrent vs development)
     
+ _See the full report for integrated visual analysis and interpretations. `Report - Government Health Spending Efficiency Analysis.pdf`_
 
-## 9. Policy Recommendations
-
-Based on the analysis:
+## 10. Policy Recommendations
 
 ### Resource Optimization
 
-*   Reallocate funds toward high-impact interventions
-    
+Reallocate funding toward high-impact interventions
 
 ### Benchmarking
 
-*   Adopt best practices from efficient counties
-    
+Adopt best practices from efficient counties
 
 ### System Strengthening
 
-*   Improve healthcare delivery systems in underperforming regions
-    
+Improve service delivery in underperforming regions
 
 ### Strategic Planning
 
-*   Focus on **efficiency**, not just spending levels
-    
+Shift focus from **spending levels to spending efficiency**
 
-## 10. Limitations
+## 11\. Limitations
 
 *   Lack of county-level data on:
-
     *   Health facilities
     *   Health workforce
-        
-*   Some datasets required averaging across years
-*   Mortality data may not fully capture healthcare access
+*   Some datasets required multi-year averaging
+*   Mortality indicators may not fully capture healthcare access
     
 
+## 12. Future Improvements
 
-## 11. Future Improvements
-
-*   Incorporate **facility and workforce data at county level**
-*   Add **time-series analysis (multi-year trends)**
-*   Build **predictive models (e.g., efficiency forecasting)**
-    
-
-## 12. Tech Stack
-
-*   **PySpark (Databricks)** - Data processing
-*   **Delta Lake** - Data storage
-*   **Unity Catalog** - Data governance
-*   **Power BI / Tableau** - Visualization
-*   **Python** - Feature engineering
-    
-
-## 13. Conclusion
-
-This project demonstrates that:
-
-> **Efficiency in public health spending is driven not just by how much is spent, but how effectively resources are utilized.**
-
-By combining data engineering and analytics, the project provides a **framework for evaluating public sector performance** and supports **evidence-based decision-making**.
+*   Integrate **facility and workforce data at county level**
+*   Add **time-series analysis**
+*   Develop **predictive models for efficiency trends**
