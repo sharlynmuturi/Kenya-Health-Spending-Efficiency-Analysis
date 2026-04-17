@@ -66,15 +66,13 @@ The project follows a **Medallion Architecture** for scalability and reproducibi
 
 **Datasets include:**
 
-*   County budgets (total + breakdown)
-*   Population (2019 Census)
-*   Mortality indicators
-*   Hospital Maternal, neonatal, and foetal deaths (2016–2020)
-*   Health system data (facilities, workforce, expenditure)
+* [County budgets FY 2018/19 (total + breakdown)](https://africacheck.org/sites/default/files/media/documents/2021-02/NATIONAL%20AND%20COUNTY%20HEALTH%20BUDGET%20ANALYSIS%20FY%202018-19.pdf)
+* [2019 Census Population](https://kenya.opendataforafrica.org/bsmihld/2019-census-population-distribution-by-sex-number-of-households-land-area-population-density-and-cou)
+* [Mortality by County, 2019](https://kenya.opendataforafrica.org/vtknmvb/mortality-by-county-2019)
+* [Hospital Foetal, Neonatal and Maternal Deaths by County, 2016 -2020](https://kenya.opendataforafrica.org/rsfzlbg/hospital-foetal-neonatal-and-maternal-deaths-by-county-2016-2020)
+* [Operational Health Facilities by Level, Type and Ownership, 2017 – 2024](https://kenya.opendataforafrica.org/ikukpqd/operational-health-facilities-by-level-type-and-ownership-2017-2024)
+* [Registered Health Professionals by Cadre](https://kenya.opendataforafrica.org/zouksef/registered-health-professionals-by-cadre)
 
-    - > [Kenya Open Data Portal](https://kenya.opendataforafrica.org/)
-    - > [The Kenya National Bureau of Statistics (KNBS)](https://www.knbs.or.ke/)
-    - > [National and County Health Budget Analysis FY 2018/19](https://africacheck.org/sites/default/files/media/documents/2021-02/NATIONAL%20AND%20COUNTY%20HEALTH%20BUDGET%20ANALYSIS%20FY%202018-19.pdf)
 
 ### Silver Layer (Clean & Structured)
 
